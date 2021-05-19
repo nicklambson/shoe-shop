@@ -17,8 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: es_MX\n"
 
-msgid "The price of your selection is {formatted_price}."
-msgstr "El precio de su selección es {formatted_price}."
+msgid "The price of your selection is %(price)s."
+msgstr "El precio de su selección es %(price)s."
 
-msgid "Your order will arrive in {delivery_days} days."
-msgstr "Su pedido llegará en {delivery_days} días."
+msgid "Your order will arrive in %(days)s days."
+msgstr "Su pedido llegará en %(days)s días."
