@@ -174,8 +174,7 @@ delivery_days = 3
 delivery_date = datetime.now() + timedelta(days=delivery_days)
 format = "%A, %d %b %Y %H:%M:%S %Z"
 delivery_date = delivery_date.strftime(format)
-# print the locale and the timestamp in that locale
-print(my_loc, delivery_date)
+
 
 bottom = tk.Frame(root, borderwidth=5)
 bottom.pack(side=tk.BOTTOM)
